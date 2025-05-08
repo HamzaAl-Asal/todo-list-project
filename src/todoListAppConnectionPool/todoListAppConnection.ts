@@ -1,10 +1,9 @@
 import sql from 'mssql';
 
 const config = {
-  "server": "DESKTOP-8G0DB69",
-  "database": "TodoAppDB",
+  "server": "server",
+  "database": "database",
   "port": 1433,
-  "username": "DESKTOP-8G0DB69\\USER",
   "options": {
     "encrypt": false, // Required for SSL
     "trustServerCertificate": true, // Accept self-signed cert,
